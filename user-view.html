@@ -1,15 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Race Results</title>
+    <title>F1 Race Results</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .user-highlight{
+            background-color: yellow !important;
+        }
+        a {
+            padding: 12px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        a:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
     <div class="race-result">
         <h1>Race Results</h1>
-        <a href="login.html">Login</a>
+        <h2>Welcome back Max Verstappen!</h2>
+        <a href="max123.html">view profile</a>
         <table>
             <thead>
                 <tr>
@@ -23,9 +45,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="user-highlight">
                     <td>1</td>
-                    <td>Max Verstappen</td>
+                    <td>Max Verstappen (Me)</td>
                     <td>1</td>
                     <td>8</td>
                     <td>08:03.897</td>
